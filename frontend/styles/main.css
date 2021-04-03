@@ -29,7 +29,7 @@ video {
   max-width: 100%;
 }
 /* ================================================= */
-#container {
+.container {
   margin: 0 auto;
   max-width: 1440px;
   height: 100%;
