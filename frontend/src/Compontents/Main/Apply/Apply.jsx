@@ -1,5 +1,6 @@
 import react from 'react';
 import './Apply.scss';
+import ApplyItem from './ApplyItem/ApplyItem';
 
 function Apply() {
   return (
@@ -7,15 +8,9 @@ function Apply() {
       <h3 className="apply__title">Apply</h3>
       <nav className="nav">
         <ul className="nav__list">
-          <li className="nav__item">
-            <a href="">become a user</a>
-          </li>
-          <li className="nav__item">
-            <a href="">join our team</a>
-          </li>
-          <li className="nav__item">
-            <a href="">invest in the company</a>
-          </li>
+          <ApplyItem link="http://github.com" title="become a user" />
+          <ApplyItem link="http://youtube.com" title="join our team" />
+          <ApplyItem link="http://vk.com" title="invest in the company" />
         </ul>
       </nav>
     </div>
