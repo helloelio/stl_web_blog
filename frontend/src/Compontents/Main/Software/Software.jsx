@@ -1,7 +1,7 @@
 import React from 'react';
 import './Software.scss';
 
-function Software() {
+const Software = () => {
   return (
     <div className="software">
       <h5 className="software__title">Enhanced by the software</h5>
@@ -47,6 +47,6 @@ function Software() {
       </div>
     </div>
   );
-}
+};
 
 export default Software;

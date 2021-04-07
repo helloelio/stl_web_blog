@@ -2,7 +2,7 @@ import react from 'react';
 import './About.scss';
 import image from './about-img.jpg';
 
-function About() {
+const About = () => {
   return (
     <div className="about">
       <div className="about__title">Myoelectric hand prosthesis</div>
@@ -31,6 +31,6 @@ function About() {
       </div>
     </div>
   );
-}
+};
 
 export default About;

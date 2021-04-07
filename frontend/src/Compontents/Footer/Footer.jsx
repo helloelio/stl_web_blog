@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './stl-logo.png';
 import './Footer.scss';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer id="footer">
       <div className="footer__logo">
@@ -15,6 +15,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

@@ -2,7 +2,7 @@ import react from 'react';
 import './Apply.scss';
 import ApplyItem from './ApplyItem/ApplyItem';
 
-function Apply() {
+const Apply = () => {
   return (
     <div className="apply">
       <h3 className="apply__title">Apply</h3>
@@ -15,6 +15,6 @@ function Apply() {
       </nav>
     </div>
   );
-}
+};
 
 export default Apply;

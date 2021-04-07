@@ -1,7 +1,9 @@
 import react from 'react';
 
-function Preview() {
+// ADD preview content
+
+const Preview = () => {
   return <div className="preview"></div>;
-}
+};
 
 export default Preview;

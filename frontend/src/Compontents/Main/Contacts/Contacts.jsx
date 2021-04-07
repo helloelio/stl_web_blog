@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contacts.scss';
 
-function Contacts() {
+const Contacts = () => {
   return (
     <div className="contacts">
       <h6 className="contacts__title">
@@ -31,6 +31,6 @@ function Contacts() {
       </div>
     </div>
   );
-}
+};
 
 export default Contacts;

@@ -3,7 +3,7 @@ import './Header.scss';
 import logo from './stl-logo.png';
 import video from './MARCO.mp4';
 
-function Header() {
+const Header = () => {
   return (
     <header id="header">
       <div id="video">
@@ -23,6 +23,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

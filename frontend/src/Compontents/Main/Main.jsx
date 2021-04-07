@@ -8,7 +8,7 @@ import Technology from './Technology/Technology';
 import Software from './Software/Software';
 import Contacts from './Contacts/Contacts';
 
-function Main() {
+const Main = () => {
   return (
     <main id="main">
       <div className="container">
@@ -23,6 +23,6 @@ function Main() {
       </div>
     </main>
   );
-}
+};
 
 export default Main;

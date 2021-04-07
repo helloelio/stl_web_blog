@@ -1,7 +1,7 @@
 import React from 'react';
 import './Technology.scss';
 
-function Technology() {
+const Technology = () => {
   return (
     <div className="technology">
       <h4 className="technology__title">
@@ -32,6 +32,6 @@ function Technology() {
       </div>
     </div>
   );
-}
+};
 
 export default Technology;
